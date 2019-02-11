@@ -12,15 +12,15 @@
     "path" : null,
     "project_path" : null,
     "properties" : {
-        "cacheKey" : "143B8169",
+        "cacheKey" : "491A850E",
         "caption" : "p_vulgaris",
-        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=p_vulgaris&cache_key=143B8169",
-        "displayedObservations" : 150,
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=p_vulgaris&cache_key=491A850E",
+        "displayedObservations" : "150",
         "environment" : "",
         "object" : "p_vulgaris",
-        "preview" : 0,
-        "totalObservations" : 150,
-        "variables" : 3
+        "preview" : "0",
+        "totalObservations" : "150",
+        "variables" : "3"
     },
     "relative_order" : 2,
     "source_on_save" : false,

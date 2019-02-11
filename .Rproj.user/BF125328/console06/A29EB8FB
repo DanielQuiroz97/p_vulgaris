@@ -241,3 +241,151 @@ fatal: ..: '..' is outside repository
 ]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git add .*[K[K9.[K[K*.
 fatal: pathspec '*.' did not match any files
 ]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git add *.[K[K.
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git add .[Kgit sa[Ktatus
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   .Rproj.user/BF125328/build_options[m
+	[32mnew file:   .Rproj.user/BF125328/console06/A29EB8FB[m
+	[32mnew file:   .Rproj.user/BF125328/console06/A29EB8FB.env[m
+	[32mnew file:   .Rproj.user/BF125328/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/BF125328/sources/prop/31DF569[m
+	[32mnew file:   .Rproj.user/BF125328/sources/prop/8568E971[m
+	[32mnew file:   .Rproj.user/BF125328/sources/prop/INDEX[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F-contents[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD-contents[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/6890431E-contents[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/7E20E269-contents[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/9329E046-contents[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/AAE9F928-contents[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/lock_file[m
+	[32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[m
+	[32mnew file:   .Rproj.user/shared/notebooks/paths[m
+	[32mnew file:   .~lock.data.xlsx#[m
+	[32mmodified:   code.R[m
+	[32mdeleted:    tmp.png[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/BF125328/console06/A29EB8FB[m
+
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git add plots/*
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git add plots/*[5Pstatus
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   .Rproj.user/BF125328/build_options[m
+	[32mnew file:   .Rproj.user/BF125328/console06/A29EB8FB[m
+	[32mnew file:   .Rproj.user/BF125328/console06/A29EB8FB.env[m
+	[32mnew file:   .Rproj.user/BF125328/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/BF125328/sources/prop/31DF569[m
+	[32mnew file:   .Rproj.user/BF125328/sources/prop/8568E971[m
+	[32mnew file:   .Rproj.user/BF125328/sources/prop/INDEX[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F-contents[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD-contents[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/6890431E-contents[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/7E20E269-contents[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/9329E046-contents[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/AAE9F928-contents[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/lock_file[m
+	[32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[m
+	[32mnew file:   .Rproj.user/shared/notebooks/paths[m
+	[32mnew file:   .~lock.data.xlsx#[m
+	[32mmodified:   code.R[m
+	[32mdeleted:    tmp.png[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/BF125328/console06/A29EB8FB[m
+
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git commit ''b'a'r'p'l'o't'
+error: pathspec 'barplot' did not match any file(s) known to git.
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git commit 'barplot'-'barplot'n'barplot'[1P'barplot'm'barplot' 'barplot'
+[master 25bc9f9] barplot
+ 21 files changed, 486 insertions(+), 3 deletions(-)
+ create mode 100644 .Rproj.user/BF125328/build_options
+ create mode 100644 .Rproj.user/BF125328/console06/A29EB8FB
+ create mode 100644 .Rproj.user/BF125328/console06/A29EB8FB.env
+ create mode 100644 .Rproj.user/BF125328/console06/INDEX001
+ create mode 100644 .Rproj.user/BF125328/sources/prop/31DF569
+ create mode 100644 .Rproj.user/BF125328/sources/prop/8568E971
+ create mode 100644 .Rproj.user/BF125328/sources/prop/INDEX
+ create mode 100644 .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F
+ create mode 100644 .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F-contents
+ create mode 100644 .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD
+ create mode 100644 .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD-contents
+ create mode 100644 .Rproj.user/BF125328/sources/s-FCCB6366/6890431E-contents
+ create mode 100644 .Rproj.user/BF125328/sources/s-FCCB6366/7E20E269-contents
+ create mode 100644 .Rproj.user/BF125328/sources/s-FCCB6366/9329E046-contents
+ create mode 100644 .Rproj.user/BF125328/sources/s-FCCB6366/AAE9F928-contents
+ create mode 100644 .Rproj.user/BF125328/sources/s-FCCB6366/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 .~lock.data.xlsx#
+ delete mode 100644 tmp.png
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git commit -m 'barplot'[3P'barplot'[10Pstatusadd plots/*[5Pstatus[1Padd .*..*statuspush origin master[K[K[K[K[K[K[K[K[K[K[K[K[Kmaster
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git push master[C[K[K[K[K[K[Korigin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git push origin mass[Kter
+Counting objects: 24, done.
+Delta compression using up to 4 threads.
+Compressing objects:   4% (1/22)   Compressing objects:   9% (2/22)   Compressing objects:  13% (3/22)   Compressing objects:  18% (4/22)   Compressing objects:  22% (5/22)   Compressing objects:  27% (6/22)   Compressing objects:  31% (7/22)   Compressing objects:  36% (8/22)   Compressing objects:  40% (9/22)   Compressing objects:  45% (10/22)   Compressing objects:  50% (11/22)   Compressing objects:  54% (12/22)   Compressing objects:  59% (13/22)   Compressing objects:  63% (14/22)   Compressing objects:  68% (15/22)   Compressing objects:  72% (16/22)   Compressing objects:  77% (17/22)   Compressing objects:  81% (18/22)   Compressing objects:  86% (19/22)   Compressing objects:  90% (20/22)   Compressing objects:  95% (21/22)   Compressing objects: 100% (22/22)   Compressing objects: 100% (22/22), done.
+Writing objects:   4% (1/24)   Writing objects:   8% (2/24)   Writing objects:  12% (3/24)   Writing objects:  16% (4/24)   Writing objects:  20% (5/24)   Writing objects:  25% (6/24)   Writing objects:  29% (7/24)   Writing objects:  33% (8/24)   Writing objects:  37% (9/24)   Writing objects:  41% (10/24)   Writing objects:  45% (11/24)   Writing objects:  50% (12/24)   Writing objects:  54% (13/24)   Writing objects:  58% (14/24)   Writing objects:  62% (15/24)   Writing objects:  66% (16/24)   Writing objects:  70% (17/24)   Writing objects:  75% (18/24)   Writing objects:  79% (19/24)   Writing objects:  83% (20/24)   Writing objects:  87% (21/24)   Writing objects:  91% (22/24)   Writing objects:  95% (23/24)   Writing objects: 100% (24/24)   Writing objects: 100% (24/24), 8.82 KiB | 0 bytes/s, done.
+Total 24 (delta 0), reused 0 (delta 0)
+To github.com:DanielQuiroz97/p_vulgaris.git
+   17532cb..25bc9f9  master -> master
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# [Kroot@daniel:/home/quiroz/Documents/Vegetal# gir[Kt rm po[Klots/*
+fatal: pathspec 'plots/PCA.png' did not match any files
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# g[Kgit rm plots/*[KPCA.png [K[K[K[K[K[K[K[Ka[K[K[K[K[K[K[K[K[K[Kadd plots/*
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git add plots/*
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   plots/PCA.png[m
+	[32mnew file:   plots/barplot.png[m
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/BF125328/console06/A29EB8FB[m
+	[31mmodified:   .Rproj.user/BF125328/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/BF125328/sources/prop/31DF569[m
+	[31mmodified:   .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F[m
+	[31mmodified:   .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD[m
+	[31mmodified:   .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD-contents[m
+	[31mmodified:   .~lock.data.xlsx#[m
+	[31mmodified:   code.R[m
+	[31mmodified:   data.xlsx[m
+	[31mdeleted:    plots/all_vars.png[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD[m
+	[31m.Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD-contents[m
+	[31m.Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24[m
+	[31m.Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24-contents[m
+
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git commit -m ''p'l'o't's'[11Pstatusadd plots/*[1Prm[C[C[C[C[C[C[C[Cpush origin master[Kmastercommit -m 'barplot'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kadd *[K.

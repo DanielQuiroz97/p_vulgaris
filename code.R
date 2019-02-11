@@ -32,3 +32,11 @@ p_vulgaris %>% ggplot(aes(Group, Value, color = Group)) +
   theme(legend.position="bottom")
 
 #ggsave('plots/all_vars.png', height = 4, width = 4, scale = 1.75, dpi = 450)
+
+
+#### Analysis ####
+Pvulgaris_dt <- p_vulgaris %>%
+  mutate(ID = row_number()) %>% spread(Variable, Value) %>% 
+  select(-ID)
+rownames(Pvulgaris_dt) <- make.unique(as.character(Pvulgaris_dt$Group))
+Pvulgaris_dt %<>% select(-Group)

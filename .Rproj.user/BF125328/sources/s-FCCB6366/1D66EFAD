@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549917673909.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1D66EFAD",
+    "lastKnownWriteTime" : 4047953630214761784,
+    "last_content_update" : 1549917673909,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "5CA7BBE1",
+        "caption" : "Pvulgaris_folded",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Pvulgaris_folded&cache_key=5CA7BBE1",
+        "displayedObservations" : 30,
+        "environment" : "",
+        "object" : "Pvulgaris_folded",
+        "preview" : 0,
+        "totalObservations" : 30,
+        "variables" : 6
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
