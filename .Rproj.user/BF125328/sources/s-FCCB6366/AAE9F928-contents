@@ -1,0 +1,34 @@
+source('functions.R')
+#### Example IR spectra ####
+example <- read_IR(ir_file = 'Data/COS_GYE_01_01.csv', rtn = c(1,2))
+ggplot(example, aes(Wave, Trans)) + geom_line() + scale_x_reverse() +
+  theme_bw() + labs(x = "Wavenumber", y = "%Transmitance")
+
+#### Import Raw Spectra  ####
+spectra_fl <- list.files(path = 'Data', pattern = '.csv$', full.names = T)
+spectra_info <- tibble(FullName = spectra_fl,
+                       BaseName = tools::file_path_sans_ext(basename(spectra_fl))) %>% 
+  separate(BaseName, into = c("Region", 'Province', 'Inyection', 'Repetition')) 
+wavenumber <- read_IR(ir_file = 'Data/COS_GYE_01_01.csv', rtn = 1)
+  
+ir_spectra <- sapply(spectra_info$FullName, read_IR) %>% t
+
+
+
+Deriv <- 2
+Filter <- 3
+ir_spectr_pre <- apply(ir_spectra, 2, sgolayfilt, m = Deriv, p = Filter)
+
+
+infrared <- spectra_info
+infrared$IR <- I(ir_spectra)
+
+ir_pca <- prcomp(infrared$IR, center = T, scale. = F)
+# Plot PCA
+autoplot(ir_pca, colour = 'Region',
+         shape = 'Province', data = infrared, size = 3) +
+  theme_bw() 
+
+# Plot loadigs
+plot_loadings(ir_pca, wavenumber, npcs = 2) + theme_bw()
+
