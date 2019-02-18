@@ -389,3 +389,362 @@ Untracked files:
 	[31m.Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24-contents[m
 
 ]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git commit -m ''p'l'o't's'[11Pstatusadd plots/*[1Prm[C[C[C[C[C[C[C[Cpush origin master[Kmastercommit -m 'barplot'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kadd *[K.
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# sta[K[K[Kgit status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .Rproj.user/BF125328/console06/A29EB8FB[m
+	[32mmodified:   .Rproj.user/BF125328/console06/INDEX001[m
+	[32mmodified:   .Rproj.user/BF125328/sources/prop/31DF569[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD-contents[m
+	[32mmodified:   .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F[m
+	[32mmodified:   .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD[m
+	[32mmodified:   .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD-contents[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24[m
+	[32mnew file:   .Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24-contents[m
+	[32mmodified:   .~lock.data.xlsx#[m
+	[32mmodified:   code.R[m
+	[32mmodified:   data.xlsx[m
+	[32mnew file:   plots/PCA.png[m
+	[32mdeleted:    plots/all_vars.png[m
+	[32mnew file:   plots/barplot.png[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/BF125328/console06/A29EB8FB[m
+
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# s[Kgit commit ''p'c'a'-'pca'm'pca' 'pca'
+[master 71c77f7] pca
+ 16 files changed, 250 insertions(+), 24 deletions(-)
+ create mode 100644 .Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD
+ create mode 100644 .Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD-contents
+ create mode 100644 .Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24
+ create mode 100644 .Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24-contents
+ rewrite data.xlsx (87%)
+ create mode 100644 plots/PCA.png
+ delete mode 100644 plots/all_vars.png
+ create mode 100644 plots/barplot.png
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git c[Kpush origin master
+Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+Counting objects: 22, done.
+Delta compression using up to 4 threads.
+Compressing objects:   4% (1/22)   Compressing objects:   9% (2/22)   Compressing objects:  13% (3/22)   Compressing objects:  18% (4/22)   Compressing objects:  22% (5/22)   Compressing objects:  27% (6/22)   Compressing objects:  31% (7/22)   Compressing objects:  36% (8/22)   Compressing objects:  40% (9/22)   Compressing objects:  45% (10/22)   Compressing objects:  50% (11/22)   Compressing objects:  54% (12/22)   Compressing objects:  59% (13/22)   Compressing objects:  63% (14/22)   Compressing objects:  68% (15/22)   Compressing objects:  72% (16/22)   Compressing objects:  77% (17/22)   Compressing objects:  81% (18/22)   Compressing objects:  86% (19/22)   Compressing objects:  90% (20/22)   Compressing objects:  95% (21/22)   Compressing objects: 100% (22/22)   Compressing objects: 100% (22/22), done.
+Writing objects:   4% (1/22)   Writing objects:   9% (2/22)   Writing objects:  13% (3/22)   Writing objects:  18% (4/22)   Writing objects:  22% (5/22)   Writing objects:  27% (6/22)   Writing objects:  31% (7/22)   Writing objects:  36% (8/22)   Writing objects:  40% (9/22)   Writing objects:  45% (10/22)   Writing objects:  50% (11/22)   Writing objects:  54% (12/22)   Writing objects:  59% (13/22)   Writing objects:  63% (14/22)   Writing objects:  68% (15/22)   Writing objects:  72% (16/22)   Writing objects:  77% (17/22)   Writing objects:  81% (18/22)   Writing objects:  86% (19/22)   Writing objects:  90% (20/22)   Writing objects:  95% (21/22)   Writing objects: 100% (22/22)   Writing objects: 100% (22/22), 314.08 KiB | 0 bytes/s, done.
+Total 22 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  12% (1/8)   [Kremote: Resolving deltas:  25% (2/8)   [Kremote: Resolving deltas:  37% (3/8)   [Kremote: Resolving deltas:  62% (5/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), completed with 6 local objects.[K
+To github.com:DanielQuiroz97/p_vulgaris.git
+   9b1ce5b..71c77f7  master -> master
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git rm plots/*
+rm 'plots/PCA.png'
+rm 'plots/barplot.png'
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# mkdir po[Klots
+ls -l
+total 484
+-rw-r--r-- 1 quiroz quiroz 458571 Feb 11 16:18 [0m[01;35mbarplot.jpg[0m
+-rw-r--r-- 1 quiroz quiroz   1689 Feb 11 16:17 code.R
+-rw-r--r-- 1 quiroz quiroz  22630 Feb 11 15:56 data.xlsx
+drwxr-xr-x 2 root   root     4096 Feb 11 16:16 [01;34mplots[0m
+-rw-r--r-- 1 quiroz quiroz    205 Feb 11 16:17 Vegetal.Rproj
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ mkdir plots
+mkdir: cannot create directory ‘plots’: File exists
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ r[Ksu
+Password: 
+su: Authentication failure
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ su
+Password: 
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# apt[K[K[Krm -r plots/
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# exit
+exit
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ mkdr[Kir plots
+s
+bash: s: command not found
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ su
+Password: 
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# i[KR
+
+R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> insta.[Kll.packages()')')c')o')r')r')p')o')[1P')l')o')t')
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+trying URL 'https://cloud.r-project.org/src/contrib/corrplot_0.84.tar.gz'
+Content type 'application/x-gzip' length 5385275 bytes (5.1 MB)
+==================================================
+downloaded 5.1 MB
+
+* installing *source* package ‘corrplot’ ...
+** package ‘corrplot’ successfully unpacked and MD5 sums checked
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (corrplot)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpec57No/downloaded_packages’
+> git add [K[K[K[K[K[K[K[Kexi[K[K[Kq()
+Save workspace image? [y/n/c]: n
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# Rexitrm -r plots/[1Pmkdir plotsgit rm plots/*push origin master[3Pcommit -m 'pca'[9Pstatus[1Padd .
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .Rproj.user/BF125328/console06/A29EB8FB[m
+	[32mmodified:   .Rproj.user/BF125328/console06/A29EB8FB.env[m
+	[32mmodified:   .Rproj.user/BF125328/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/debug-breakpoints.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/files-pane.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/source-pane.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/windowlayoutstate.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/workbench-pane.pper[m
+	[32mnew file:   .Rproj.user/BF125328/rmd-outputs[m
+	[32mnew file:   .Rproj.user/BF125328/saved_source_markers[m
+	[32mmodified:   .Rproj.user/BF125328/sources/prop/31DF569[m
+	[32mrenamed:    .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD -> .Rproj.user/BF125328/sources/s-F6C8A31/5CC165CD[m
+	[32mrenamed:    .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD-contents -> .Rproj.user/BF125328/sources/s-F6C8A31/5CC165CD-contents[m
+	[32mrenamed:    .Rproj.user/BF125328/sources/s-FCCB6366/lock_file -> .Rproj.user/BF125328/sources/s-F6C8A31/lock_file[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/6890431E-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/7E20E269-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/9329E046-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/AAE9F928-contents[m
+	[32mnew file:   PCA_plot.RData[m
+	[32mdeleted:    Vegetal.Rproj[m
+	[32mmodified:   code.R[m
+	[32mmodified:   plots/PCA.png[m
+	[32mnew file:   plots/barplot.jpg[m
+	[32mdeleted:    plots/barplot.png[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/BF125328/console06/A29EB8FB[m
+
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# gt[Kit commit -m ''[K[K[K[K[K[K[K[K[K[K[K[Kchekc[K[Kckout -b ''f'i'n'a' 'p'l'o't's'
+fatal: 'fina plots' is not a valid branch name.
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# exit
+exit
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ gi[K[Kgit checkout -b ''f'i'n'a' 'p'l'[1P'[1P'[1P'[1P'a'l' 'p'l'o't's'
+fatal: 'final plots' is not a valid branch name.
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ git checkout -b 'final plots'[1Pplots'_plots'
+M	.Rproj.user/BF125328/console06/A29EB8FB
+M	.Rproj.user/BF125328/console06/A29EB8FB.env
+M	.Rproj.user/BF125328/console06/INDEX001
+A	.Rproj.user/BF125328/pcs/debug-breakpoints.pper
+A	.Rproj.user/BF125328/pcs/files-pane.pper
+A	.Rproj.user/BF125328/pcs/source-pane.pper
+A	.Rproj.user/BF125328/pcs/windowlayoutstate.pper
+A	.Rproj.user/BF125328/pcs/workbench-pane.pper
+A	.Rproj.user/BF125328/rmd-outputs
+A	.Rproj.user/BF125328/saved_source_markers
+M	.Rproj.user/BF125328/sources/prop/31DF569
+A	.Rproj.user/BF125328/sources/s-F6C8A31/5CC165CD
+A	.Rproj.user/BF125328/sources/s-F6C8A31/5CC165CD-contents
+A	.Rproj.user/BF125328/sources/s-F6C8A31/lock_file
+D	.Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD
+D	.Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD-contents
+D	.Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F
+D	.Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F-contents
+D	.Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD
+D	.Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD-contents
+D	.Rproj.user/BF125328/sources/s-FCCB6366/6890431E-contents
+D	.Rproj.user/BF125328/sources/s-FCCB6366/7E20E269-contents
+D	.Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24
+D	.Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24-contents
+D	.Rproj.user/BF125328/sources/s-FCCB6366/9329E046-contents
+D	.Rproj.user/BF125328/sources/s-FCCB6366/AAE9F928-contents
+D	.Rproj.user/BF125328/sources/s-FCCB6366/lock_file
+A	PCA_plot.RData
+D	Vegetal.Rproj
+M	code.R
+M	plots/PCA.png
+A	plots/barplot.jpg
+D	plots/barplot.png
+Switched to a new branch 'final_plots'
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ git commit -m ''f'i'n'a' 'p'l'o't's'[Cl plots'
+error: insufficient permission for adding an object to repository database .git/objects
+error: insufficient permission for adding an object to repository database .git/objects
+error: Error building trees
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ git pushh[K origin final_plots
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'final_plots' on GitHub by visiting:[K
+remote:      https://github.com/DanielQuiroz97/p_vulgaris/pull/new/final_plots[K
+remote: 
+To github.com:DanielQuiroz97/p_vulgaris.git
+ * [new branch]      final_plots -> final_plots
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ git status
+On branch final_plots
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .Rproj.user/BF125328/console06/A29EB8FB[m
+	[32mmodified:   .Rproj.user/BF125328/console06/A29EB8FB.env[m
+	[32mmodified:   .Rproj.user/BF125328/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/debug-breakpoints.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/files-pane.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/source-pane.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/windowlayoutstate.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/workbench-pane.pper[m
+	[32mnew file:   .Rproj.user/BF125328/rmd-outputs[m
+	[32mnew file:   .Rproj.user/BF125328/saved_source_markers[m
+	[32mmodified:   .Rproj.user/BF125328/sources/prop/31DF569[m
+	[32mrenamed:    .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD -> .Rproj.user/BF125328/sources/s-F6C8A31/5CC165CD[m
+	[32mrenamed:    .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD-contents -> .Rproj.user/BF125328/sources/s-F6C8A31/5CC165CD-contents[m
+	[32mrenamed:    .Rproj.user/BF125328/sources/s-FCCB6366/lock_file -> .Rproj.user/BF125328/sources/s-F6C8A31/lock_file[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/6890431E-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/7E20E269-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/9329E046-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/AAE9F928-contents[m
+	[32mnew file:   PCA_plot.RData[m
+	[32mdeleted:    Vegetal.Rproj[m
+	[32mmodified:   code.R[m
+	[32mmodified:   plots/PCA.png[m
+	[32mnew file:   plots/barplot.jpg[m
+	[32mdeleted:    plots/barplot.png[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/BF125328/console06/A29EB8FB[m
+	[31mmodified:   .Rproj.user/BF125328/console06/A29EB8FB.env[m
+
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ git statuspush origin final_plotscommit -m 'final plots'push origin final_plots
+Everything up-to-date
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ s[Kgit status
+On branch final_plots
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .Rproj.user/BF125328/console06/A29EB8FB[m
+	[32mmodified:   .Rproj.user/BF125328/console06/A29EB8FB.env[m
+	[32mmodified:   .Rproj.user/BF125328/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/debug-breakpoints.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/files-pane.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/source-pane.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/windowlayoutstate.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/workbench-pane.pper[m
+	[32mnew file:   .Rproj.user/BF125328/rmd-outputs[m
+	[32mnew file:   .Rproj.user/BF125328/saved_source_markers[m
+	[32mmodified:   .Rproj.user/BF125328/sources/prop/31DF569[m
+	[32mrenamed:    .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD -> .Rproj.user/BF125328/sources/s-F6C8A31/5CC165CD[m
+	[32mrenamed:    .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD-contents -> .Rproj.user/BF125328/sources/s-F6C8A31/5CC165CD-contents[m
+	[32mrenamed:    .Rproj.user/BF125328/sources/s-FCCB6366/lock_file -> .Rproj.user/BF125328/sources/s-F6C8A31/lock_file[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/6890431E-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/7E20E269-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/9329E046-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/AAE9F928-contents[m
+	[32mnew file:   PCA_plot.RData[m
+	[32mdeleted:    Vegetal.Rproj[m
+	[32mmodified:   code.R[m
+	[32mmodified:   plots/PCA.png[m
+	[32mnew file:   plots/barplot.jpg[m
+	[32mdeleted:    plots/barplot.png[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/BF125328/console06/A29EB8FB[m
+	[31mmodified:   .Rproj.user/BF125328/console06/A29EB8FB.env[m
+
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ git statuspush origin final_plots[K[K[K[K[K[K[K[K[K[K[Kmaster
+Everything up-to-date
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ git status
+On branch final_plots
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .Rproj.user/BF125328/console06/A29EB8FB[m
+	[32mmodified:   .Rproj.user/BF125328/console06/A29EB8FB.env[m
+	[32mmodified:   .Rproj.user/BF125328/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/debug-breakpoints.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/files-pane.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/source-pane.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/windowlayoutstate.pper[m
+	[32mnew file:   .Rproj.user/BF125328/pcs/workbench-pane.pper[m
+	[32mnew file:   .Rproj.user/BF125328/rmd-outputs[m
+	[32mnew file:   .Rproj.user/BF125328/saved_source_markers[m
+	[32mmodified:   .Rproj.user/BF125328/sources/prop/31DF569[m
+	[32mrenamed:    .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD -> .Rproj.user/BF125328/sources/s-F6C8A31/5CC165CD[m
+	[32mrenamed:    .Rproj.user/BF125328/sources/s-FCCB6366/5CC165CD-contents -> .Rproj.user/BF125328/sources/s-F6C8A31/5CC165CD-contents[m
+	[32mrenamed:    .Rproj.user/BF125328/sources/s-FCCB6366/lock_file -> .Rproj.user/BF125328/sources/s-F6C8A31/lock_file[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/1D66EFAD-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/37E0E88F-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/6890431E-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/7E20E269-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/82DCDA24-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/9329E046-contents[m
+	[32mdeleted:    .Rproj.user/BF125328/sources/s-FCCB6366/AAE9F928-contents[m
+	[32mnew file:   PCA_plot.RData[m
+	[32mdeleted:    Vegetal.Rproj[m
+	[32mmodified:   code.R[m
+	[32mmodified:   plots/PCA.png[m
+	[32mnew file:   plots/barplot.jpg[m
+	[32mdeleted:    plots/barplot.png[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/BF125328/console06/A29EB8FB[m
+	[31mmodified:   .Rproj.user/BF125328/console06/A29EB8FB.env[m
+
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ git add .
+error: insufficient permission for adding an object to repository database .git/objects
+error: .Rproj.user/BF125328/console06/A29EB8FB: failed to insert into database
+error: unable to index file .Rproj.user/BF125328/console06/A29EB8FB
+fatal: updating files failed
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ su
+Password: 
+su: Authentication failure
+]0;/home/quiroz/Documents/Vegetal]0;quiroz@daniel: ~/Documents/Vegetal[01;32mquiroz@daniel[00m:[01;34m~/Documents/Vegetal[00m$ su
+Password: 
+]0;/home/quiroz/Documents/Vegetalroot@daniel:/home/quiroz/Documents/Vegetal# git add .

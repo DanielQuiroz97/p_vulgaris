@@ -5,6 +5,7 @@ library(readxl)    # Read data
 library(ggsignif) # Statistical test
 library(ggpubr)   # ggplot extensions
 library(ggfortify) # plot PCA
+library(corrplot)  # Correlation plot
 
 #### Importing Data ####
 p_vulgaris <- read_xlsx('data.xlsx', sheet = "all_data") %>% 
@@ -29,10 +30,12 @@ p_vulgaris %>% ggplot(aes(Group, Value, color = Group)) +
   labs(color = "Tratamientos:") +
   theme(legend.position="bottom")
 
-#ggsave('plots/barplot.png', height = 4, width = 4, scale = 1.75, dpi = 450)
+#ggsave("plots/barplot.jpg", height = 4, width = 4, scale = 1.75, dpi = 450)
 
 
 #### Analysis ####
+# PCA
+set.seed(15)
 Pvulgaris_dt <- p_vulgaris %>%
   mutate(ID = row_number()) %>% spread(Variable, Value) %>% 
   select(-ID) %>% as.data.frame
@@ -43,4 +46,11 @@ autoplot(Pvul_pca, data = Pvulgaris_dt, colour = "Group", loadings = T,
          loadings.colour = 'lightskyblue') + theme_pubclean() +
   scale_color_brewer(palette="Dark2") + labs(color = "Tratamientos: ") +
   geom_vline(xintercept=0) +  geom_hline(yintercept=0)
-ggsave("plots/PCA.png", height = 4, width = 4)
+#ggsave("plots/PCA.png", height = 4, width = 4, scale = 1.5)
+
+ 
+# Correlation
+Pvul_cor <- cor(Pvulgaris_dt[, 2:6])
+corrplot(Pvul_cor, type = 'upper')
+
+#save(ls(), file = "allData.RData")
